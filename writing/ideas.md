@@ -17,4 +17,6 @@ I came up with the idea to create a database of different incandescent theatre l
 
 ### Alex's Idea
 
+#### Spatial Model Extension
+
 An extension of the spatial model from lab, this premise has a hunter actually moving around to detect and then kill the multiple, various prey present. Potentially could be extended into a game where you play as one of the prey and try to avoid getting killed (but most likely forced to move so that you can still be detected with the user just choosing the direction of movement).

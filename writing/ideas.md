@@ -16,3 +16,5 @@ A relatively simple game to make, but one that requires a lot of different AI te
 I came up with the idea to create a database of different incandescent theatre lights turning on and off. We could then use AI to create a generic or average light(fade/turn on) and create a simulation of this for led lights.
 
 ### Alex's Idea
+
+An extension of the spatial model from lab, this premise has a hunter actually moving around to detect and then kill the multiple, various prey present. Potentially could be extended into a game where you play as one of the prey and try to avoid getting killed (but most likely forced to move so that you can still be detected with the user just choosing the direction of movement).

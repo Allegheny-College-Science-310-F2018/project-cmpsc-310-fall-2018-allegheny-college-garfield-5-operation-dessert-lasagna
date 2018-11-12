@@ -13,7 +13,7 @@ A relatively simple game to make, but one that requires a lot of different AI te
 
 #### THEATER Lights
 
-I came up with the idea to create a database of different incandescent theatre lights turning on and off. We could then use AI to create a generic or average light(fade/turn on) and create a simulation of this for led lights.
+I came up with the idea to create a database of different incandescent theatre lights turning on and off. We could then use AI to create a generic or average light(fade/turn on) and create a simulation of this for led lights. We could use different functions of OpenCV to make this a reality.
 
 ### Alex's Idea
 

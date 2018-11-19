@@ -10,3 +10,4 @@
 
 Dissertation by Martin Persson, 2005.
 https://www.diva-portal.org/smash/get/diva2:4762/FULLTEXT01.pdf
+http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html

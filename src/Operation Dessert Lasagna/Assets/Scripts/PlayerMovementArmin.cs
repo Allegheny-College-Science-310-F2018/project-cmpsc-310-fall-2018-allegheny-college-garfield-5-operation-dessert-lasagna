@@ -14,14 +14,14 @@ public class PlayerMovementArmin : MonoBehaviour {
 
 		speed = 3;
 
-		if (Input.GetKeyDown("left")) // Move left
+		if (Input.GetKey("left")) // Move left
 			{
 				isMovedLeft = true;
 				isMovedRight = false;
-			} else if (Input.GetKeyDown("right")) { // Move right
+			} else if (Input.GetKey("right")) { // Move right
 				isMovedRight = true;
 				isMovedLeft = false;
-			} else if (Input.GetKeyUp("left") && Input.GetKeyUp("right")) { // Doesn't move
+			} else { // Doesn't move
 				isMovedLeft = false;
 				isMovedRight = false;
 			}

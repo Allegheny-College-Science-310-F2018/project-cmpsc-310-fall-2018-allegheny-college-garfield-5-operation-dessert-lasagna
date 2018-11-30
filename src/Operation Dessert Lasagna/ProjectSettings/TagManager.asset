@@ -50,6 +50,9 @@ TagManager:
   - name: Character
     uniqueID: 1578057641
     locked: 0
+  - name: Spawns
+    uniqueID: 347157157
+    locked: 0
   - name: Foreground
     uniqueID: 271948547
     locked: 0

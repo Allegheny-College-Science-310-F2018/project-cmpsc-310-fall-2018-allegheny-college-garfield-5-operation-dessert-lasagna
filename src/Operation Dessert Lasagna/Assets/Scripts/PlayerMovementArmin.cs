@@ -5,10 +5,15 @@ using UnityEngine;
 public class PlayerMovementArmin : MonoBehaviour {
 
 	public float speed;
-	bool isMovedLeft = true;
-	bool isMovedRight = true;
+	bool isMovedLeft = false;
+	bool isMovedRight = false;
 	public Vector2 jumpHeight;
 	bool isInAir = false;
+	Animator anim;
+
+	void Awake () {
+		anim = GetComponent <Animator> ();
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -19,12 +24,15 @@ public class PlayerMovementArmin : MonoBehaviour {
 			{
 				isMovedLeft = true;
 				isMovedRight = false;
+				Animating (isMovedLeft, isMovedRight);
 			} else if (Input.GetKey(KeyCode.RightArrow) && isInAir == true) { // Move right
 				isMovedRight = true;
 				isMovedLeft = false;
+				Animating (isMovedLeft, isMovedRight);
 			} else { // Doesn't move
 				isMovedLeft = false;
 				isMovedRight = false;
+				Animating (isMovedLeft, isMovedRight);
 			}
 
 		if (isMovedRight)
@@ -46,4 +54,9 @@ public class PlayerMovementArmin : MonoBehaviour {
   {
 		isInAir = false;
   }
+
+	void Animating (bool isMovedLeft, bool isMovedRight)	{
+		anim.SetBool ("isMovedLeft", isMovedLeft);
+		anim.SetBool ("isMovedRight", isMovedRight);
+	}
 }

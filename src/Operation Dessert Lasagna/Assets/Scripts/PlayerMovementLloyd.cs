@@ -5,10 +5,15 @@ using UnityEngine;
 public class PlayerMovementLloyd : MonoBehaviour {
 
 	public float speed;
-	bool isMovedLeft = true;
-	bool isMovedRight = true;
+	bool isMovedLeft = false;
+	bool isMovedRight = false;
 	public Vector2 jumpHeight;
 	bool isInAir = false;
+	Animator anim;
+
+	void Awake () {
+		anim = GetComponent <Animator> ();
+	}
 
 	// Update is called once per frame
 	void Update () {

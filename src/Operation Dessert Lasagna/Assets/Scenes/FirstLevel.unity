@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 12972431}
   - component: {fileID: 12972434}
   - component: {fileID: 12972430}
+  - component: {fileID: 12972435}
   m_Layer: 0
   m_Name: Armin
   m_TagString: Untagged
@@ -248,6 +249,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  jumpHeight: {x: 0, y: 0}
+--- !u!95 &12972435
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 12972429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed3f4716448f04792a3f657e498d9fca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &14596493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,6 +1358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  jumpHeight: {x: 0, y: 0}
 --- !u!1 &372276081
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,6 +35,6 @@ public class PlayerMovementArmin : MonoBehaviour {
 
     if (Input.GetKeyDown(KeyCode.UpArrow))  //jump
     {
-			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,10), ForceMode2D.Impulse);
+			Armin.rigidbody2D.AddForce(Vector3.up * 1000)
 		}
 }

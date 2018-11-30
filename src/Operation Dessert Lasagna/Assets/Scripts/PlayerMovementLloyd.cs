@@ -7,12 +7,13 @@ public class PlayerMovementLloyd : MonoBehaviour {
 	public float speed;
 	bool isMovedLeft = true;
 	bool isMovedRight = true;
-
+	public Vector2 jumpHeight;
+	bool isInAir = false;
 
 	// Update is called once per frame
 	void Update () {
 
-		speed = 3;
+		speed = 5;
 
 		if (Input.GetKeyDown("a")) // Move left
 			{
@@ -32,5 +33,17 @@ public class PlayerMovementLloyd : MonoBehaviour {
 		} else if (isMovedLeft) {
 				transform.Translate(Vector3.left * Time.deltaTime * speed);
 		}
+
+		if (Input.GetKeyDown("w") && isInAir == false)  //jump
+		{
+			isInAir = true;
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,10), ForceMode2D.Impulse);
+		}
+	}
+
+	// called when the character hits a thing
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		isInAir = false;
 	}
 }

@@ -37,4 +37,5 @@ public class PlayerMovementArmin : MonoBehaviour {
     {
 			Armin.rigidbody2D.AddForce(Vector3.up * 1000);
 		}
+	}
 }

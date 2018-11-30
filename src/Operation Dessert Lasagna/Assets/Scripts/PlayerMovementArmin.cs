@@ -7,18 +7,18 @@ public class PlayerMovementArmin : MonoBehaviour {
 	public float speed;
 	bool isMovedLeft = true;
 	bool isMovedRight = true;
-
+	public Vector2 jumpHeight;
 
 	// Update is called once per frame
 	void Update () {
 
 		speed = 3;
 
-		if (Input.GetKey("left")) // Move left
+		if (Input.GetKeyDown(KeyCode.LeftArrow)) // Move left
 			{
 				isMovedLeft = true;
 				isMovedRight = false;
-			} else if (Input.GetKey("right")) { // Move right
+			} else if (Input.GetKeyDown(KeyCode.RightArrow)) { // Move right
 				isMovedRight = true;
 				isMovedLeft = false;
 			} else { // Doesn't move
@@ -32,5 +32,9 @@ public class PlayerMovementArmin : MonoBehaviour {
 		} else if (isMovedLeft) {
 				transform.Translate(Vector3.left * Time.deltaTime * speed);
 		}
-	}
+
+    if (Input.GetKeyDown(KeyCode.UpArrow))  //jump
+    {
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,10), ForceMode2D.Impulse);
+		}
 }

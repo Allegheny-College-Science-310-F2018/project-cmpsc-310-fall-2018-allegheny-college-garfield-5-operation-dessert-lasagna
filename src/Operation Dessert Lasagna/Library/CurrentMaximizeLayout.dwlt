@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 16298
+  controlID: 18970
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 16299
+  controlID: 18971
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,9 +186,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.7802916, y: -1.8488898, z: 0.08155363}
+    m_Target: {x: -9.399799, y: 6.099514, z: -0.25286156}
     speed: 2
-    m_Value: {x: 1.7802916, y: -1.8488898, z: 0.08155363}
+    m_Value: {x: -9.399799, y: 6.099514, z: -0.25286156}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -220,9 +220,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.7791295
+    m_Target: 44.01967
     speed: 2
-    m_Value: 2.7791295
+    m_Value: 44.01967
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 3378
+  m_LastSelectedObjectID: -79828
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 16222
+  controlID: 18929
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2cc8feff
-    m_LastClickedID: -79828
+    m_SelectedIDs: 
+    m_LastClickedID: 0
     m_ExpandedIDs: 2cc8feffe0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -532,11 +532,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/WorldSprites
+    - Assets/PathProject
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/WorldSprites
+  - Assets/PathProject
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation
     Dessert Lasagna
@@ -544,9 +544,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e0a0000
-    m_LastClickedID: 2606
-    m_ExpandedIDs: 00000000f608000000ca9a3b
+    m_SelectedIDs: 2c8f0000
+    m_LastClickedID: 36652
+    m_ExpandedIDs: 00000000f6080000f08e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,9 +599,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2cc8feff
-    m_LastClickedInstanceID: -79828
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000a60d0000080b0000000c0000d42b0000c60b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

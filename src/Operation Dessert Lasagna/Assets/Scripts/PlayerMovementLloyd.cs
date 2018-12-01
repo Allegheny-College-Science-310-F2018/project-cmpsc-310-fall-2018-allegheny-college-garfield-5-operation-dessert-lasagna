@@ -24,12 +24,15 @@ public class PlayerMovementLloyd : MonoBehaviour {
 			{
 				isMovedLeft = true;
 				isMovedRight = false;
+				Animating (isMovedLeft, isMovedRight);
 			} else if (Input.GetKeyDown("d")) { // Move right
 				isMovedRight = true;
 				isMovedLeft = false;
+				Animating (isMovedLeft, isMovedRight);
 			} else if (Input.GetKeyUp("a") && Input.GetKeyUp("b")) { // Doesn't move
 				isMovedLeft = false;
 				isMovedRight = false;
+				Animating (isMovedLeft, isMovedRight);
 			}
 
 		if (isMovedRight)
@@ -50,5 +53,10 @@ public class PlayerMovementLloyd : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D col)
 	{
 		isInAir = false;
+	}
+
+	void Animating (bool isMovedLeft, bool isMovedRight)	{
+		anim.SetBool ("isMovedLeft", isMovedLeft);
+		anim.SetBool ("isMovedRight", isMovedRight);
 	}
 }

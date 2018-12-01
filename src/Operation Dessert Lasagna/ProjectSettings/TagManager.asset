@@ -47,6 +47,9 @@ TagManager:
   - name: Ground
     uniqueID: 4225081599
     locked: 0
+  - name: Midground
+    uniqueID: 2701288631
+    locked: 0
   - name: Character
     uniqueID: 1578057641
     locked: 0
@@ -55,4 +58,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 271948547
+    locked: 0
+  - name: Superforeground
+    uniqueID: 3358448739
     locked: 0

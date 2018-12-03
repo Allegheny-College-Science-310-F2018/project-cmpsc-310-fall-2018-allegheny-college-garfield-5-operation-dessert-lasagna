@@ -15,7 +15,11 @@ Unity's 2D physics engine has been our main tool in making the physics work.  It
 
 ## Pathfinding
 
+After doing some research on A* pathfinding algorithms in C#, we came across a project called the "A* Pathfinding Project." This project has an extensive amount of Unity assets with various amounts of different implementations. The project, designed by Aron Granberg, has an extensive forum for troubleshooting and for different implementations of many aspects of the project. We have downloaded this package, and we have explored many of the assets of the project. This project has given us some difficulty in its implementation, but we have confidence in our ability to plug it into our project. We intend to use this on enemy AI, and potentially a variation of it for our final boss. The project is very flexible, so we should be able to implement it in any way that we wish.
+
 ## Image Recognition
+
+The "A* Pathfinding Project" has a method that can be used to detect objects in our world. This will allow the AI to avoid obstacles around the world, while finding the quickest path. If we use this method, we will only use it once, as our world only has one layout. There will be no need to constantly update the AI's interpretation of the world. This may be difficult for a platformer, and we will need to modify the method for it to work with our game. Due to the method's design, it works best with top down 2D games, or 3D world. This should not be too difficult after we initially get it working in our system.
 
 ## Line of Sight
 

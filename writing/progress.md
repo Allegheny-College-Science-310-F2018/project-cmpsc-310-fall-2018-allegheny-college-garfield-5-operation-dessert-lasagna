@@ -3,9 +3,15 @@
 
 ## Introduction
 
+We've been building our platformer at a decent pace.  We've fleshed out the main player characters quite well, being Lloyd (bound arms, blue spike) and Armin (bound legs, yellow spike).  That said, we're still a few player mechanics from done, and need to do more work on the NPCs where the AI truly lies.  On the upside, most of the visuals are fully sprited out, and many animations are done.  Our main areas in need of work are the implementations of our algorithms and pathfinding techniques.
+
 ## Graphics
 
+The pixel art graphics are all made by Jordan, all of them having no more than 15 colors and a transparent layer, or no more than 16 colors.  The images are then upscaled to four times their real size for crisper pixels.  The idea was to make the game vibrant and colorful, with a sense of scale presented from being miniature characters in a big world.  Most of our graphics are done, though we still have a few more assets we could use to make the world feel a little more fleshed out than it is at the moment.  We still have to implement the NPC animations, a couple spawn sprites, and the boss room, if we have time to assemble a unique room for that.
+
 ## Physics
+
+Unity's 2D physics engine has been our main tool in making the physics work.  It leads to a great sense of weight in the jumps of the characters, as well as the ability to use extremely detailed collision maps.  I'd like to work to lock the fall speed of Lloyd, though, as his constant moving needs to be made less detrimental to his platforming capabilities.
 
 ## Pathfinding
 

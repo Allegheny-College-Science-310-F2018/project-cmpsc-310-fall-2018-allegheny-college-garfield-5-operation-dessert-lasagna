@@ -1,4 +1,13 @@
 # Progress report
+<<<<<<< HEAD
+# Group members Noah Stape, Alex Yarkosky, Jordan Durci
+
+# 2D Platformer Progress report
+
+At the point that our group is at with this project, we feel confident in the work that must still be accomplished and the work that we have done. Despite being past the halfway point of development time, we still have a significant amount of work to be done. We will summarize all that we have done so far in the following paragraphs.
+
+# Graphics and Physics
+=======
 # Group members: Jordan Durci, Noah Stape, and Alex Yarkosky
 
 ## Introduction
@@ -28,3 +37,4 @@ For the line of sight, we have settled upon using Brensenham's line algorithm as
 ## Conclusion
 
 While we have not made the most progress possible with the coding of the crucial elements of our project, we believe that the work have accomplished thus far gives us a great enough foundation to build off of with the final implementations of the proposed techniques. Along the way, we have thus far learned more about the process for making a 2D game in specific in Unity and how it differs from our experience with making a 3D game in Unity. Our challenges so far have mainly revolved around working with Unity and the C# language due to our collective inexperience with both. Specifically with Unity, it has created some trouble for us pushing into the repository since we are not using the proper GitHub workflow with branches from the slightest of changes that Unity produces when working on the project within it. The `.gitignore` file has been updated to include Unity and all other subsequent derived files that may be encountered with the help of gitignore.io for generating the new additions to the file. It also probably took us longer than it should have to find resources and settle upon the algorithms we intend to use for the implementation of the various AI techniques. Nonetheless, it has been quite the learning experience for all of us so far and besides fulfilling the requirements of the project, that is all that we can ever hope to get out of efforts like these.
+>>>>>>> d5c264b6e9346f8820f4d17e214e2b3f4345827d

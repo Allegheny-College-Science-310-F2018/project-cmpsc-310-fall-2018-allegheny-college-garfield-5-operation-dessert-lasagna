@@ -269,21 +269,13 @@
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-<<<<<<< HEAD
  <HintPath>/home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-=======
- <HintPath>/home/s/stapen/cs310/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
->>>>>>> b013780c2651230b85142b0f5a3f4d1fe52829ff
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/home/d/durcij/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
-<<<<<<< HEAD
  <HintPath>/home/d/durcij/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-=======
- <HintPath>/home/s/stapen/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
->>>>>>> b013780c2651230b85142b0f5a3f4d1fe52829ff
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
@@ -316,10 +308,10 @@
   <ItemGroup>
     <ProjectReference Include="AstarPathfindingProject.csproj">
       <Project>{9C63B226-5133-A8D4-4C62-2339EFEA8E13}</Project>      <Name>AstarPathfindingProject</Name>    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{9888522F-2B72-4249-1F19-FCF4C3E4FDB4}</Project>      <Name>AstarPathfindingProjectEditor</Name>    </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
       <Project>{203B09EB-8435-389A-6773-806363044A29}</Project>      <Name>PackageToolsEditor</Name>    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{9888522F-2B72-4249-1F19-FCF4C3E4FDB4}</Project>      <Name>AstarPathfindingProjectEditor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

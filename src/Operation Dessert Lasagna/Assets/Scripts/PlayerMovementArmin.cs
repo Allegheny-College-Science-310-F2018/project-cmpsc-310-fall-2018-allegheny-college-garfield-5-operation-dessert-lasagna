@@ -10,9 +10,11 @@ public class PlayerMovementArmin : MonoBehaviour {
 	public Vector2 jumpHeight;
 	bool isInAir = false;
 	Animator anim;
+	AudioSource jumpAudio;
 
 	void Awake () {
 		anim = GetComponent <Animator> ();
+		jumpAudio = GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame
@@ -46,6 +48,7 @@ public class PlayerMovementArmin : MonoBehaviour {
     {
 			isInAir = true;
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,10), ForceMode2D.Impulse);
+			jumpAudio.Play ();
 		}
 	}
 

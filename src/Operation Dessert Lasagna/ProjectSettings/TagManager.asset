@@ -14,8 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Players
+  - Enemies
   - 
   - 
   - 
@@ -62,4 +62,10 @@ TagManager:
     locked: 0
   - name: Superforeground
     uniqueID: 3358448739
+    locked: 0
+  - name: Players
+    uniqueID: 1591124257
+    locked: 0
+  - name: Enemies
+    uniqueID: 2893686631
     locked: 0

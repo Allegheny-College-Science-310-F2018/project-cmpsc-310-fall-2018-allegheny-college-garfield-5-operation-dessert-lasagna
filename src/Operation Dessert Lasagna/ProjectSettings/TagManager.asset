@@ -63,6 +63,9 @@ TagManager:
   - name: Superforeground
     uniqueID: 3358448739
     locked: 0
+  - name: Superhyperforeground
+    uniqueID: 4245644969
+    locked: 0
   - name: Players
     uniqueID: 1591124257
     locked: 0

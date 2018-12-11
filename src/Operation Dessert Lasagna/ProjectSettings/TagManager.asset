@@ -72,3 +72,6 @@ TagManager:
   - name: Enemies
     uniqueID: 2893686631
     locked: 0
+  - name: Screen Effects
+    uniqueID: 1290895893
+    locked: 0

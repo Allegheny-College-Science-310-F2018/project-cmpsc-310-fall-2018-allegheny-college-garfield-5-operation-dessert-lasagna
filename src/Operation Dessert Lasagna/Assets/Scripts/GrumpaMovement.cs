@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class GrumpaMovement : MonoBehaviour {
 
-	public float speed;
-	bool isMovedLeft = true;
-	bool isMovedRight = false;
+	private Vector3 MovingDirection = Vector3.left;    //initial movement direction
 
-	void Awake () {
+	// Use this for initialization
+	void Start () {
 	}
+
+	// Update is called once per frame
 	void Update () {
+			UpdateMovement ();
 	}
 
-	void OnCollisionEnter2D(Collision2D col)
-	{
-		if (isMovedLeft = true) {
-			isMovedLeft = false;
-			isMovedRight = true; 
-		}
+	void UpdateMovement(){
+			if (this.transform.position.x > 2.4f) {
+					MovingDirection = Vector3.left;
+					gameObject.GetComponent<SpriteRenderer> ().flipX = true;
+
+			} else if (this.transform.position.x < -2f) {
+					MovingDirection = Vector3.right;
+					gameObject.GetComponent<SpriteRenderer> ().flipX = false;
+
+			}
+			this.transform.Translate (MovingDirection * Time.smoothDeltaTime);
 	}
 }

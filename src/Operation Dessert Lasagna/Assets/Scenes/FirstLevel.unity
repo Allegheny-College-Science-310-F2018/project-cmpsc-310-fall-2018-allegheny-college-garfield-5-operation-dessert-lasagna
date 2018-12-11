@@ -3188,6 +3188,7 @@ GameObject:
   - component: {fileID: 526038762}
   - component: {fileID: 526038766}
   - component: {fileID: 526038767}
+  - component: {fileID: 526038768}
   m_Layer: 0
   m_Name: Grumpa
   m_TagString: Untagged
@@ -3326,7 +3327,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3334,6 +3335,18 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.28, y: -0.16}
   - {x: 0.28, y: -0.16}
+--- !u!114 &526038768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 526038761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d660f1a1b6c9d4f51a7ebe9f40c6ab3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &554071461
 GameObject:
   m_ObjectHideFlags: 0

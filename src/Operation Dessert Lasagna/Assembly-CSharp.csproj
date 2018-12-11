@@ -58,16 +58,16 @@
      <Compile Include="Assets\Scripts\PlayerMovementArmin.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementLloyd.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -271,13 +271,13 @@
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>/home/d/durcij/cs310F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna/src/Operation Dessert Lasagna/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/home/d/durcij/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>/home/d/durcij/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>/home/y/yarkoskya/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

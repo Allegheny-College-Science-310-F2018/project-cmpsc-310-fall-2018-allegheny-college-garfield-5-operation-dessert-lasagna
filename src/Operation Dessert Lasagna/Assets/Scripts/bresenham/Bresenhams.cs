@@ -10,6 +10,10 @@ public class Bresenhams : MonoBehaviour{
   public bool spotted = false;
   public bool clearLineOfSAight = true;
 
+  public void Start(){
+    Physics2D.queriesStartInColliders = false;
+  }
+
   public void Update(){
     Raycasting();
   }
@@ -21,10 +25,10 @@ public class Bresenhams : MonoBehaviour{
     else {
       Debug.DrawLine(sightStart.position, sightEnd.position, Color.red);
     }
-    spotted = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Character"));
+    spotted = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Players"));
   }
 
-  void OnCollisionEnter2D(Collision2D col)
+  void OnCollisionEnter2D(Collision2D col) // need to be using a different method here to activate this effect
   {
 		clearLineOfSAight = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Default"));;
   }

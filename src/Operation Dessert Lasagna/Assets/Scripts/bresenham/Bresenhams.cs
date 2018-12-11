@@ -8,14 +8,25 @@ public class Bresenhams : MonoBehaviour{
 
   public Transform sightStart, sightEnd;
   public bool spotted = false;
+  public bool clearLineOfSAight = true;
 
   public void Update(){
     Raycasting();
   }
 
   public void Raycasting(){
-    Debug.DrawLine(sightStart.position, sightEnd.position, Color.blue);
-    spotted = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Players"));
+    if (clearLineOfSAight) {
+      Debug.DrawLine(sightStart.position, sightEnd.position, Color.blue);
+    }
+    else {
+      Debug.DrawLine(sightStart.position, sightEnd.position, Color.red);
+    }
+    spotted = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Character"));
+  }
+
+  void OnCollisionEnter2D(Collision2D col)
+  {
+		clearLineOfSAight = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Default"));;
   }
 
   // actual algorithm, may end up being abandoned

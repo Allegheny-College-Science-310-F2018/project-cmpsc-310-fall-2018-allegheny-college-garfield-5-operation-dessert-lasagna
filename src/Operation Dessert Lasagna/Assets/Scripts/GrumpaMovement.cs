@@ -20,13 +20,13 @@ public class GrumpaMovement : MonoBehaviour {
 	}
 
 	void UpdateMovement(){
-			if (this.transform.position.x > 2.4f) {
+			if (this.transform.position.x > 5f) {
 					MovingDirection = Vector3.left;
 					isWalkingLeft = true;
 					isWalkingRight = false;
 					Animating (isWalkingLeft, isWalkingRight);
 
-			} else if (this.transform.position.x < -2f) {
+			} else if (this.transform.position.x < -6f) {
 					MovingDirection = Vector3.right;
 					isWalkingLeft = false;
 					isWalkingRight = true;

@@ -16,12 +16,16 @@ In general, despite us working on the majority of the project as individuals, we
 
 (Should talk about algorithms, etc. that we used.)
 
+Implementing the A* Pathfinding Project and getting it working as desired, was far more difficult than we expected. After many hours of troubleshooting and implementing minor changes, we were able to import it, create an accurate grid-graph, and actually apply it to our enemies. The grumperflies use the A* search algorithm to avoid obstacles and travel the fastest path to the character. We ran into an issue when we added colliders to the grumperflies, as the AI controller and the sprite were often knocked away from each other. This caused a separation between the AI and the sprite, so the grumperfly wouldn't actually fly to the proper location. This was solved by removing their colliders and letting them move without collision. The potential issue here is that they may fly through wall or the ground, but they actually couldn't because of the search algorithm. The grid-graph did not allow the AI to move through any obstacles that we did not want it to.
+After this, we attempted to add the algorithm to enemies that were actually impacted by gravity. Because the "A* Pathfinding Project" is not meant to be used on 2d platformers, were were unable to achieve this. If we created this 2d world on a 3d plane, we might have been able to accomplish this. So instead of having the grumpas pathfind, they just walk across the ground between two points. This adds an obstacle to the game, even if it was not the intended movement of them.
+
+
 ## Results
 
 (Should talk about what is actually in the game currently.)
 We were able to achieve our basic goals of this project and provide the framework for most of the basis of the actual game.
 Currently, the butterfly looking enemies, the grumperflies, both implement the pathfinding technique (green line in scene view) and the line of sight technique (blue line when spotted and red line when there is not a clear line of sight (i.e. terrain or obstacle crosses the line between the player character and the enemy) in the scene view). it should also be noted that each grumperfly either targets Armin or Lloyd for both the pathfinding and the line of sight. It should also be noted that the current implementation of the line of sight does not use or simulate Bresenham's algorithm as originally desired but instead just uses Unity to draw the lines. The entirety of the game exists with a test level of sorts with all of the assets being in it even if they are not fully implemented. It might be obvious, but it should still be said that it is indeed possible to move the characters around the test level with Armin only being able to move whilst in the air as he jumps and Lloyd continuing to move after he is first moved, continuing in one direction until changed by the user.
-
+(What work already exists on topic? Refer back to paper mentioned in proposal.)
 ## Conclusion
 
 (Overview, what was learned, challenges, rewards.)

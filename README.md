@@ -4,6 +4,8 @@ By Garfield 5: Operation Dessert Lasagna: Jordan Durci, Noah Stape, and Alex Yar
 
 ## About the Game
 
+The Watchers are a race of tiny people whose duty it is to guard the Seeds of Evil to ensure they never take root and corrupt the world.  Two of the Watchers were attacked and bound up in the webbing of a Grumperfly, a corrupted butterfly.  While they were unconscious, the seeds they were tasked with guarding went missing.  Now they must do what they can to reclaim them, even if their actions are limited.  Play as Lloyd, the blue Watcher whose arms are bound, but whose massive reserves of energy leave him constantly moving (at high speeds, no less), and his brother Armin, whose legs are bound, making him unable to move without leaping into thw air, but whose strength leaves him capable of punching enemies out of his way.  Face five types of enemies, Grums, Grumpas, Grumperflies, Snüds, and Slüds, and reclaim the lost seeds before one can sprout into a Germ of Evil.  Play with a friend on the same keyboard for the best multiplayer gaming experience to come from CMPSC 310 this semester!
+
 ## Download
 
 ## Installation

@@ -8,16 +8,18 @@ We also specifically chose to make a game as it gave us the ability to work with
 
 ## Background
 
-What work already exists on topic? Refer back to paper mentioned in proposal.
+(What work already exists on topic? Refer back to paper mentioned in proposal.)
 
 ## Work Accomplished
 
-Should talk about algorithms, etc. that we used.
+(Should talk about algorithms, etc. that we used.)
 
 ## Results
 
-Should talk about what is actually in the game currently.
+(Should talk about what is actually in the game currently.)
+We were able to achieve our basic goals of this project and provide the framework for most of the basis of the actual game.
+Currently, the butterfly looking enemies, the grumperflies, both implement the pathfinding technique (green line in scene view) and the line of sight technique (blue line when spotted and red line when there is not a clear line of sight (i.e. terrain or obstacle crosses the line between the player character and the enemy) in the scene view). it should also be noted that each grumperfly either targets Armin or Lloyd for both the pathfinding and the line of sight. It should also be noted that the current implementation of the line of sight does not use or simulate Bresenham's algorithm as originally desired but instead just uses Unity to draw the lines. The entirety of the game exists with a test level of sorts with all of the assets being in it even if they are not fully implemented. It might be obvious, but it should still be said that it is indeed possible to move the characters around the test level with Armin only being able to move whilst in the air as he jumps and Lloyd continuing to move after he is first moved, continuing in one direction until changed by the user.
 
 ## Conclusion
 
-Overview, what was learned, challenges, rewards.
+(Overview, what was learned, challenges, rewards.)

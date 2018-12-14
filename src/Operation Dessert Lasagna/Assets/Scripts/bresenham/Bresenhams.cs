@@ -26,11 +26,7 @@ public class Bresenhams : MonoBehaviour{
       Debug.DrawLine(sightStart.position, sightEnd.position, Color.red);
     }
     spotted = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Players"));
-  }
-
-  void OnCollisionEnter2D(Collision2D col) // need to be using a different method here to activate this effect
-  {
-		clearLineOfSAight = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Default"));;
+    clearLineOfSAight = !(Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("TransparentFX")));
   }
 
   // actual algorithm, may end up being abandoned

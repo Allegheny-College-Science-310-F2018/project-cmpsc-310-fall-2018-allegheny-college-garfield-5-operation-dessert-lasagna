@@ -8,8 +8,6 @@ The Watchers are a race of tiny people whose duty it is to guard the Seeds of Ev
 
 ## Download
 
-## Installation
-
 This repository can be downloaded from the terminal with the following command:
 
 `git clone https://github.com/Allegheny-College-Science-310-F2018/project-cmpsc-310-fall-2018-allegheny-college-garfield-5-operation-dessert-lasagna.git`
